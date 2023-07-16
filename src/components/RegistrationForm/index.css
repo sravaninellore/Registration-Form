@@ -1,0 +1,95 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto';
+  padding: 20px;
+}
+
+.registration-form-heading {
+  color: #ea580c;
+  font-size: 40px;
+  text-align: center;
+}
+
+.registration-form-details {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 50px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+}
+
+.input-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #475569;
+}
+
+.input {
+  outline: none;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  padding: 5px 13px;
+  font-size: 14px;
+  color: #9aa5b1;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.lost-focus-input {
+  background-color: #fef2f4;
+  border: 1px solid #ff0b37;
+}
+
+.submit-button {
+  align-self: center;
+  border: none;
+  color: #ffffff;
+  background-color: #ea580c;
+  font-family: 'Roboto';
+  font-size: 13px;
+  border-radius: 6px;
+  padding: 7px 16px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: #ff0b37;
+  margin-top: -18px;
+  font-size: 13px;
+}
+
+.success {
+  width: 60px;
+  align-self: center;
+}
+
+.success-text {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+
+  .registration-form-details {
+    width: 100%;
+    box-shadow: none;
+    padding: 10px;
+  }
+
+  .registration-form-heading {
+    font-size: 35px;
+  }
+
+  .submit-button {
+    width: 100%;
+  }
+}
